@@ -1,0 +1,10 @@
+{
+  "name": "dsh-app-send",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "description": "Send a text to a contact in WeChat / QQ / WeCom: auto-detects accessibility or falls back to share-intent + OCR.",
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.1-rc.2 <0.3.0-0" }
+}
